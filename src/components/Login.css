@@ -1,0 +1,172 @@
+.card {
+    height: 654px;
+    width: 528px;
+    position: relative;
+    background-color: white;
+    border-radius: 25px;
+    top: 123px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.profile {
+    position: absolute;
+    top: 64px;
+}
+
+.form {
+    position: absolute;
+    top: 304px;
+    height: 116px;
+    width: 400px;
+}
+
+.footer {
+    width: 100%;
+    height: 40px;
+    bottom: 32px;
+    position: absolute;
+    color: #808080;
+    padding-top: 20px;
+
+    border-top: #E6E6E6 1px solid;
+}
+
+.back {
+    position: absolute;
+    top: 64px;
+    left: 85px;
+    display: flex;
+    align-items: center;
+    color: #808080;
+}
+
+.back img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.image-wrapper {
+    width: 100%;
+}
+
+.image-wrapper img {
+    width: 128px;
+    height: 128px;
+    border-radius: 128px;
+}
+
+.password-input {
+    height: 60px;
+    width: 100%;
+    border-radius: 999px;
+    border: 2px solid #6877CA;
+    margin: 8px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    padding-left: 24px;
+    position: relative;
+    left: -20px;
+    outline: none;
+}
+
+.acc-type {
+    color: #808080;
+}
+
+.username {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.reset-button {
+    color: #6877CA;
+}
+
+.password-label {
+    position: relative;
+    left: -135px;
+}
+
+.sign-in {
+    margin-top: 30px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkbox-wrapper {
+    display: flex;
+
+}
+
+input.checkbox {
+    height: 18.5px;
+    width: 18.5px;
+}
+
+button {
+    width: 180px;
+    height: 60px;
+    border-radius: 999px;
+    color: white;
+    background-color: #4255BD;
+    border: 1px solid #6877CA;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        /* height: 100%; */
+        width: 100%;
+        /* position: relative; */
+        background-color: white;
+        border-radius: 25px;
+        /* top: 123px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .password-input {
+        height: 60px;
+        width: 300px;
+        border-radius: 999px;
+        border: 2px solid #6877CA;
+        margin-left: 40px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 40px;
+        /* bottom: 32px; */
+        color: #808080;
+        padding-top: 20px;
+        position: absolute;
+        border-top: #E6E6E6 1px solid;
+    }
+
+    .back {
+        position: absolute;
+        top: 64px;
+        left: 45px;
+        display: flex;
+        align-items: center;
+        color: #808080;
+    }
+    .sign-in {
+        display: flex;
+        flex-direction: column;
+    }
+}
